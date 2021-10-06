@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meowly</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/catfavi.ico" type="image/x-icon" />
+  <!-- BS5 Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/ac4c2790c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href=""><img src="images/MeowlyBrand.png" alt="" width="225" height=""
+            class="d-inline-block" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <div id="intro" class="row">
+      <div id="hook" class="col-lg-6">
+        <h1>Meet new and interesting cats nearby.</h1>
+        <div class="getApp">
+          <button id="appstore" type="button" class="btn btn-dark btn-lg">
+            <i class="fab fa-apple"></i>
+            Download
+          </button>
+          <button id="playstore" type="button" class="btn btn-outline-light btn-lg">
+            <i class="fab fa-google-play"></i>
+            Download
+          </button>
+        </div>
+      </div>
+      <div id="prototype" class="col-lg-6">
+        <img id="iphone" src="images/meowlyproto.png" alt="iphone-mockup" />
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid">
+      <div id="three-feats" class="row">
+        <div class="col-lg-4">
+          <i class="fas fa-check-circle fa-3x"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your cat could do it.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-bullseye fa-3x"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the cats, the greatest cats.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-heart fa-3x"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your cat's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <!-- Carousel Indicators -->
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">My cat used to be so lonely, but with Meowly's help, they've found the love of
+            their life. </h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Thanks to Meowly, I can finally get my cat to stay off my head for a bit.</h2>
+          <img class="testimonial-image" src="images/catpagol.jpg" alt="lady-profile">
+          <em>Jaime, Indiana</em>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </a>
+    </div>
+    </div>
+  </section>
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="t-logos" src="images/TechCrunch.png" alt="tc-logo" />
+    <img class="t-logos" src="images/tnw.png" alt="tnw-logo" />
+    <img class="t-logos" src="images/bizinsider.png" alt="biz-insider-logo" />
+    <img class="t-logos" src="images/mashable.png" alt="mashable-logo" />
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <h2>A Plan for Every Cat's Needs</h2>
+    <p>Simple and affordable price plans for you and your cat.</p>
+    <div id="card-container" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Munchkin</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Free</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 Matches Per Day</li>
+              <li>10 Messages Per Day</li>
+              <li>Unlimited App Usage</li>
+              <li>24/7 support</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Bengal</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$30<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited Matches Per Day</li>
+              <li>Unlimited Messages Per Day</li>
+              <li>Unlimited App Usage</li>
+              <li>24/7 support</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-white bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Maine Coon</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$75<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Priority Listing</li>
+              <li>Unlimited Matches Per Day</li>
+              <li>Unlimited Messages Per Day</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h3>Find the True Love of Your Cat's Life Today.</h3>
+    <button id="cta-apple" type="button" class="btn btn-dark btn-lg">
+      <i class="fab fa-apple"></i>
+      Download
+    </button>
+    <button id="cta-google" type="button" class="btn btn-outline-light btn-lg">
+      <i class="fab fa-google-play"></i>
+      Download
+    </button>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a class="socials"><i class="fab fa-twitter"></i></a>
+    <a class="socials"><i class="fab fa-facebook-f"></i></a>
+    <a class="socials"><i class="fab fa-instagram"></i></a>
+    <a class="socials"><i class="fas fa-envelope"></i></a>
+    <p>© Copyright 2021 Meowly</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+#title{
+    background-color: #797edf;
+    padding-bottom: 20px;
+}
+.navbar-brand{
+    position: relative;
+    right: 15px;
+}
+
+.nav-item{
+    padding: 5px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+.getApp{
+    margin-bottom: 30px;
+}
+
+#prototype{
+    transform: rotate(15deg);
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media(max-width:991px) {
+    #prototype{
+        transform: rotate(0deg);
+        margin: 0 auto;
+    }
+    #iphone{
+        width: 80%;
+    }
+    #intro{
+        text-align: center;
+    }
+}
+#intro{
+    margin-left: 15px;
+    margin-right: 0;
+    padding: 0;
+}
+
+#hook{
+    padding-top: 10%;
+}
+
+#appstore{
+
+    margin-right: 10px;
+}
+
+#features{
+    margin: 5rem;
+}
+#three-feats{
+    text-align: center;
+}
+
+.col-lg-4{
+    padding: 20px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+.fas{
+    margin-bottom: 15px;
+    color: #797edf;
+}
+
+.fas:hover{
+    color:#f89833;
+}
+
+
+#testimonials{
+    padding: 7% 15%;
+    background-color: #797edf;
+    text-align: center;
+    color:white;
+}
+.testimonial-text{
+    padding: 40px;
+}
+.testimonial-image{
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    border-radius: 100%;
+}
+.carousel-item {
+    overflow: hidden;
+    width: 100%;
+    }
+.carousel-indicators{
+    top: 1px
+}
+
+#press{
+    background-color: #797edf;
+    text-align: center;
+}
+
+.t-logos{
+    padding: 15px;
+    width: 20vw
+}
+
+#pricing{
+    padding: 75px;
+    text-align: center;
+}
+
+#card-container{
+    margin: 0;
+}
+
+.pricing-card-title{
+    color: black;
+}
+
+#cta{
+    text-align:center;
+    background-color:#797edf;
+    padding: 120px 100px 100px 100px;
+    color: white;
+    
+}
+
+#cta-apple{
+    margin: 30px;
+}
+
+
+#footer{
+    background-color: rgb(20, 19, 19);
+    text-align:center;
+padding: 20px;
+}
+
+.socials{
+    color: white;
+    padding: 10px;
+}
+
+.socials:hover{
+    color: #f89833;
+}
+
+.fa-envelope{
+    color: white;
+}
